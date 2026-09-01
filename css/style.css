@@ -410,6 +410,14 @@ p { margin: 0 0 1rem; }
 
 .facts-grid li { padding: 0.28rem 0; }
 
+.facts-grid a {
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 0.1rem;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.facts-grid a:hover { color: var(--ink); border-color: var(--accent); }
+
 .tag-list {
   display: flex;
   flex-wrap: wrap;
