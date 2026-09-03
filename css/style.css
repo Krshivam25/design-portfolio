@@ -408,6 +408,12 @@ p { margin: 0 0 1rem; }
 
 .portrait-contact a:hover { color: var(--ink); border-color: var(--accent); }
 
+.portrait-contact .btn {
+  display: block;
+  text-align: center;
+  margin-top: 0.9rem;
+}
+
 /* ---------- Buttons ---------- */
 
 a.btn {
