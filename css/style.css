@@ -414,6 +414,26 @@ p { margin: 0 0 1rem; }
   margin-top: 0.9rem;
 }
 
+.portrait-contact svg {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+  vertical-align: -2px;
+  margin-right: 0.4rem;
+}
+
+.software-list li {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.software-list img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
 /* ---------- Buttons ---------- */
 
 a.btn {
